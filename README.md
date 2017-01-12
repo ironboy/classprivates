@@ -25,7 +25,7 @@ require('classprivates')(ClassName,[prefixString]);
 This makes all properties, methods, getters and setters with a certain prefix (default is "_") private - that is non-reachable from outside the code in the class.
 
 ### Lastly (and optionally)
-Just if you are making a module from your class):
+Just if you are making a module from your class:
 
 ```javascript
 module.exports = ClassName;
