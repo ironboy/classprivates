@@ -1,8 +1,8 @@
 {
   "name": "classprivates",
-  "description": "Makes all class members (properties, methods, getters and setters) with a certain prefix (default is '_') private",
+  "description": "Makes all class members (properties, methods, getters and setters) with a certain prefix (default is '_') private.",
   "author": "Thomas Frank <thomas@nodebite.se> (http://nodebite.se)",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "main": "classprivates.js",
   "repository": {
     "type": "git",
