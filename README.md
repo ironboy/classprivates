@@ -4,7 +4,7 @@
 
 ## What does it do?
 Makes all class members (properties, methods, getters and setters)
-with a certain prefix (default is "_") private
+with a certain prefix (default is "_") private.
 
 ## How?
 
