@@ -1,0 +1,16 @@
+{
+  "name": "classprivates",
+  "description": "Makes all class members (properties, methods, getters and setters)
+  with a certain prefix (default is '_') private",
+  "author": "Thomas Frank <thomas@nodebite.se> (http://nodebite.se)",
+  "version": "0.1.1",
+  "main": "classprivates.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ironboy/classprivates"
+  },
+  "bugs": "https://github.com/ironboy/classprivates/issues",
+  "license" : "MIT",
+  "dependencies": {},
+  "engines" : { "node" : ">=6.0"}
+}
