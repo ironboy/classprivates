@@ -20,7 +20,7 @@ class ClassName(){
 
 ```javascript
 var classprivates = require('classprivates');
-classprivates(ClassName,[prefixString]);
+ClassName = classprivates(ClassName,[prefixString]);
 ```
 
 This makes all properties, methods, getters and setters with a certain prefix (default is "_") private - that is non-reachable from outside the code in the class.
