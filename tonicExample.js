@@ -31,7 +31,7 @@ class Animal {
 };
 
 // Make class members private
-var classprivates = require("./classprivates");
+var classprivates = require("classprivates");
 Animal = classprivates(Animal);
 
 
