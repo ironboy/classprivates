@@ -24,15 +24,19 @@
 
 function construct(_class,prefix){
   prefix = prefix || '_';
-  return function(){
+  var constr = function(){
     var instance = Reflect.construct(_class,arguments);
-    return new Proxy(instance,{
+    var p = new Proxy(instance,{
       get: _get,
       set: _set,
       deleteProperty: _deleteProperty,
-      _prefix: prefix
+      _prefix: prefix,
     });
+    p.constructor = constr;
+    return p;
   };
+  constr.prototype = _class.prototype;
+  return constr;
 }
 
 function _ok(property,trapName,prefix){
