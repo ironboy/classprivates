@@ -52,7 +52,7 @@ console.log('fido._secret',fido._secret);
 
 // Try to fool it
 // you can't - only original methods (in the class def)
-// can read private variabls
+// can read private variables
 fido.sneaky = function(){
   console.log(this._name); // undefined
   console.log(this.name);  // Fido
